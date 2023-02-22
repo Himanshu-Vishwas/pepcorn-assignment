@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rec"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingHorizontal="10dp"
+            android:text="User ID"
+            />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="User ID"
+            android:paddingHorizontal="10dp"
+            android:layout_toEndOf="@+id/tv_uid"
+            />
+        <TextView
+            android:id="@+id/tv_payid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="User ID"
+            android:layout_marginHorizontal="10dp"
+            android:layout_toEndOf="@+id/tv_name"
+            />
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="User ID"
+            android:paddingHorizontal="10dp"
+            android:layout_toEndOf="@+id/tv_payid"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>
